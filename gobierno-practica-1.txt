@@ -1,0 +1,787 @@
+Gestión y Gobierno en Tecnología de la Información, 21 de diciembre 2025
+PRÁCTICA: ESTABLECIMIENTO DE UN
+MARCO DE GOBERNANZA
+EMPRESARIAL DE TI
+Seguros Plus
+Integrantes:
+• Nury Lezzandra Avila Montes, Directora de Operaciones
+• Alex Danilo Martínez Matamoros, Director de Tecnología (CIO)
+• Francisco Javier Dibo Gómez, Director Financiero (CFO)
+• Oscar Reimar Cedeño Delgado, Director de Negocio
+Escuela Politécnica Superior de Jaén
+Máster en Ingeniería Informática
+Curso 2025-2026
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwgDOw9OFUg70Bttr_IIEspevAFdAC4AkwkOcECqSrRbr1odCQpbvKxHW280cRf6xQwiVEAT5UHhObOcvbr6Hr6_PExQGYvtFwaygthHCgwd-Ea_aoZ9veZvLTWjlKkYLBalm2PTw=w232-h173-v0
+Máster en Ingeniería Informática Gestión y gobierno en Tecnología de la Información
+1
+ÍNDICE
+1. RESUMEN EJECUTIVO .................................................................................................... 2
+2. INTRODUCCIÓN ............................................................................................................. 3
+3. CARACTERIZACIÓN DE LA ORGANIZACIÓN .................................................................... 4
+4. DESARROLLO .................................................................................................................. 6
+4.1 Tarea 1: Diagnóstico de la Situación Actual y Aplicación Principios ISO/IEC 38500 .. 6
+4.1.1 Análisis de los Principios ISO/IEC 38500 ............................................................. 6
+4.1.2 Interrelación entre los principios y visión integrada .......................................... 8
+4.2 Tarea 2: Principios de Alineación Negocio/TI ............................................................ 9
+4.2.1 Inversión basada en objetivos de la empresa ..................................................... 9
+4.2.2 Responsabilidad Financiera mixta .................................................................... 10
+4.2.3 Integración por diseño y reducción del Shadow IT........................................... 10
+4.2.4 Priorizar una estrategia transversal .................................................................. 11
+4.2.6 Diseño Orientado a la Experiencia del Usuario (UX) ........................................ 12
+4.2.7 Transparencia y comunicación proactiva .......................................................... 12
+4.2.8 Gestión compartida del riesgo tecnológico ...................................................... 13
+4.3 Tarea 3: Metas de Negocio y Metas de TI Alineadas ............................................... 13
+4.3.1 Parte 1: Definición de Metas Estratégicas de Negocio ..................................... 13
+4.3.2 Parte 2: Definir Metas de TI Alineadas ............................................................. 15
+4.4 Tarea 4: Estructura y Mecanismos de Gobernanza ................................................. 20
+4.4.1 Parte 1: Proponer Estructura de Gobernanza .................................................. 20
+4.4.2 Parte 2: Definir Mecanismos de Relación Negocio-TI ...................................... 21
+4.4.3 Parte 3: Proponer evolución del área técnica................................................... 23
+4.4.4 Parte 4: Diseñar Plan de Despliegue ................................................................. 24
+5. CONCLUSIONES ............................................................................................................ 25
+6. REFERENCIAS ............................................................................................................... 26
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzNS7R0Fek_kFF-X97_SdbQiWiSbhXoUfnOGlKBDq0oHTTuXEn96UG0sBkXmPQQ2Y6Ze45oqJHFELl2tT75ZfG9VDgVeubdFgt_CVtoHOh6EraYWK_0E_5_R-rCac-HAdGioQFZ5A=w232-h173-v0
+Máster en Ingeniería Informática Gestión y gobierno en Tecnología de la Información
+2
+1. RESUMEN EJECUTIVO
+El presente documento constituye una hoja de ruta estratégica para la transformación
+tecnológica de Seguros Plus. La situación actual se la organización está en un punto de
+inflexión en el que sus metas de crecimiento y digitalización están siendo afectadas por
+una estructura técnica reactiva y en donde los procesos manuales comprometen la
+eficiencia financiera así como la seguridad de los datos de los asegurados.
+El análisis profundo se la situación actual, ha revelado que existe una brecha crítica entre
+las metas del negocio y la realidad operativa que tiene:
+• Saturación operativa y falta de foco: Un equipo de solamente 8 personas en el área de
+TI, se debe encargar de atender a 120 empleados, dedicando la mayor parte de su
+tiempo a realizar tareas de soporte de bajo valor, en lugar de impulsar la innovación.
+• Desconexión de sistemas y procesos: La plataforma de ventas, el CRM y el sistema de
+siniestros funcionan de forma aislada. Esta falta de integración obliga a llevar a cabo
+tareas de verificación manual y utilizar hojas de cálculo, lo cual eleva el tiempo de
+resolución de siniestros a 15 días.
+• Riesgos de seguridad y shadow IT: Se ha detectado que se realizan compras
+descontroladas de software por parte de diferentes departamentos, sin que haya una
+supervisión técnica. A eso se le suma el manejo de datos sensibles de salud de los
+clientes en archivos locales y correos electrónicos, representando un riesgo crítico de
+incumplimiento legal ante el RGPD.
+• Ineficiencia Financiera: El departamento de TI se percibe como un centro de costes, en
+donde no hay una medición clara del retorno de inversión (ROI) sobre 250.000€ anuales
+disponibles.
+Para solventar estas ineficiencias, se propone un modelo de gobernanza basado en ISO/IEC
+38500 y COBIT estructurado de la siguiente forma:
+1. Nueva estructura de comités: constará de: un comité Estratégico para la toma de
+decisiones de alto nivel, un comité de Compras para el control económico y un comité
+Operativo centrado en la integración de sistemas.
+2. Políticas de Alineación: implementación de un nuevo modelo de cofinanciación de
+proyectos departamentales que requerirá la validación técnica obligatoria del CIO para
+cualquier nueva adquisición.
+https://lh3.googleusercontent.com/notebooklm/ANHLwAy8fhRpeMeEJqCOA_3ic2EHaZVBRXwj0YfT3xeGzyEwKEE70WODftSxMhwN8NcBkLDtDhUOXi8gyoQzjTaUnpzHOYvWP79HQxRZRRaAaYk0bKRJ5zObb1DbqA1aAZ8K4s2K60v4Uw=w232-h173-v0
+Máster en Ingeniería Informática Gestión y gobierno en Tecnología de la Información
+3
+3. Modernización Técnica: se priorizará en la integración total entre el CRM y Plataforma
+de siniestros, se migrará a servicios Cloud y se adoptarán las firmas digitales para
+eliminar la necesidad del uso de papel.
+Con la implementación de este marco se obtendrán resultados tangibles para diciembre
+de 2028:
+• Excelencia en el servicio: Se reducirán los tiempos de trámites de siniestros de 15 a 5
+días hábiles y se incrementará un 20% en el índice de satisfacción del cliente (NPS).
+• Eficiencia de Procesos: se automatizará el 80% de los procesos críticos y se eliminará
+totalmente el uso de Excel para datos sensibles.
+• Optimización económica: Se reducirá el 15% de los costes operativos administrativos
+en pólizas, mediante la eliminación de licencias redundantes y consolidación
+tecnológica.
+2. INTRODUCCIÓN
+El propósito fundamental de este informe es el establecimiento de un Marco de
+Gobernanza TI robusto y que se encuentre alineado con los objetivos estratégicos de
+Seguros Plus para el período 2025-2028. No solo se busca la optimización de la
+infraestructura tecnológica, sino también transformar la cultura organizacional para que la
+tecnología sea un habilitador clave que genere valor medible, se puedan mitigar riesgos
+legales y se garantice la sostenibilidad financiera de la compañía.
+Seguros Plus es una entidad de tamaño mediano (120 empleados) que cuenta con una
+trayectoria sólida en el sector se seguros de salud y vida. Su característica principal que la
+hace distinguirse en el mercado es la atención personalizada que ofrece y la gestión
+cercana de los siniestros. La empresa opera bajo un modelo híbrido que combina agentes
+en agencias físicas, canales digitales de desarrollo propio y soporte telefónico especializado
+en emergencias.
+Ante un entorno competitivo cada vez más digitalizado, la alta dirección ha definido
+métricas de transformación que requieren una mayor capacidad técnica que la actual,
+especialmente en la automatización en procesos internos y respuesta al cliente. Para
+abordar estos desafíos de forma sistemática, se ha dividido el informe en cuatro apartados
+fundamentales, que se detallan en el presente documento:
+1. Diagnóstico de la Situación Actual y Aplicación Principios ISO/IEC 38500.
+2. Principios de Alineación Negocio/TI.
+3. Metas de Negocio y Metas de TI Alineadas.
+4. Estructura y Mecanismos de Gobernanza
+https://lh3.googleusercontent.com/notebooklm/ANHLwAx9SA3ls16bjSeO7jg-eiilrLsjeksWdvsIJoCsDa8WXqtcPO9gSqhEtDlOIszuZR5gkweghetBJPrcIDKSWSN4sMSdXH5cttG4_3bX8pgbDY22QlhX0JeWL_hoakcMMTK5t-wNxg=w232-h173-v0
+Máster en Ingeniería Informática Gestión y gobierno en Tecnología de la Información
+4
+3. CARACTERIZACIÓN DE LA ORGANIZACIÓN
+Seguros Plus es una organización de tamaño mediano con aproximadamente 120 empleados, opera
+en el sector de seguros de vida y salud. Su modelo de negocio se ha enfocado y especializado en
+una atención personalizada y una adecuada gestión de siniestros lo que hace ser su principal factor
+diferenciador en el mercado.
+Seguros Plus interactúa con sus clientes a través de un modelo híbrido:
+• Agentes de seguros: El personal especializado responsables de la atención al cliente en las
+agencias.
+• Canales Digitales: Accesibles desde un portal web de desarrollo propio.
+• Atención Telefónica: Soporte ofrecido por los agentes de call center, enfocados a
+atender emergencias y consultas de clientes.
+Objetivos Estratégicos: Para mantener su competitividad, la alta dirección ha establecido dos metas
+de carácter crítico que van relacionadas a la mejora de sus capacidades tecnológicas:
+• Digitalización: Se apunta a automatizar y digitalizar el 80% de los procesos internos antes de
+finalizar 2026.
+• Mejora de la experiencia del cliente: Se enfocan los esfuerzos en incrementar el índice de
+satisfacción del cliente en un 20% en un plazo de 12 meses, donde se busca optimizar los
+tiempos de respuesta en la gestión de los casos de siniestros y atención de clientes.
+Contexto actual de TI en la organización
+A pesar de que el negocio reconoce a TI como un "Habilitador Clave" para la consecución de los
+objetivos propuestos, existe una brecha significativa entre la aspiración estratégica y la realidad
+operativa. La infraestructura tecnológica actual de Seguros Plus cuenta con:
+• Estructura y Talento Humano: El departamento de TI está compuesto por un equipo de 8
+personas. Este grupo debe dar soporte a 120 empleados. Actualmente, el personal técnico se
+encuentra desbordado por tareas operativas de bajo valor, lo que les impide dedicar tiempo a
+la innovación o al desarrollo de los proyectos de digitalización exigidos.
+• Ecosistema de Sistemas Dispersos: La organización sufre de una falta de integración. Las
+plataformas de ventas, el CRM y el sistema de gestión de siniestros funcionan como sistemas
+independientes. Esto obliga a realizar procesos manuales de verificación de datos, aumentando
+el riesgo de errores humanos y ralentizando la atención al cliente.
+• Madurez Operativa: La gestión de incidencias y solicitudes no cuenta con una herramienta
+formal (ITSM). Actualmente los reportes de fallos llegan de forma desordenada por correo
+electrónico o llamadas directas a las áreas responsables. A esto se suma que el seguimiento de
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxqFMVUVD0UU9STsRUv7ojaZprDAaHVQ5FhE80iLTOhoncgwfhCY3bfsV7PMuLkBqFiipJ_AUuPDNEL4PJWc01RuCnh7HK4p_av5BoS3KELPB-Huxqfr1GwsmWxKDrKrbvJh13c3A=w232-h173-v0
+Máster en Ingeniería Informática Gestión y gobierno en Tecnología de la Información
+5
+los problemas se realiza en hojas de cálculo, lo que impide tener trazabilidad, métricas de
+rendimiento o una base de conocimientos para evitar problemas recurrentes.
+¿Por qué Seguros Plus necesita un Marco de Gobernanza?
+La implementación de un marco de gobierno basado en ISO/IEC 38500 y COBIT no es una opción
+técnica, sino una necesidad para llevar a satisfactoria cumplimentación de los objetivos propuestos
+y el crecimiento de la propia organización.
+• Alineación Estratégica: Es necesario reducir los planes u objetivos aislados ambiguos de las
+áreas de Seguros Plus, sin un gobierno formal, el objetivo de digitalizar el 80% de los procesos
+es inalcanzable. El gobierno de TI asegurará que cada inversión tecnológica esté directamente
+conectada con los objetivos de negocio. El gobierno transforma los costos invertidos en
+tecnología de un "gasto necesario" a una "inversión estratégica".
+• Gestión de Riesgos y Cumplimiento Normativo: Seguros Plus maneja datos sensibles de salud
+y vida. La actual dispersión de sistemas y el uso de herramientas no formales como Excel
+representan un riesgo crítico de seguridad y cumplimiento legal (RGPD). Un marco de gobierno
+establece responsabilidades claras y controles para proteger el activo más valioso de la
+empresa: la información de sus asegurados.
+• Optimización de Recursos: Con un personal disponible de solo 8 técnicos de TI, Seguros Plus no
+puede permitirse el desperdiciar esfuerzos o realizar tareas que no aporten valor. El gobierno
+de TI permite priorizar proyectos basados en el valor que aportan al negocio, eliminando
+duplicidades y asegurando que el equipo trabaje en lo que realmente impacta en la satisfacción
+del cliente.
+• Medición del Valor y Rendimiento: Lo que no se mide, no se puede mejorar. El marco de
+gobierno permitirá pasar de una percepción subjetiva a una gestión basada en datos KPIs. Esto
+permitirá al CFO y al director de negocio visualizar el retorno de la inversión y la eficacia real.
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwMm2mVj4Vr2Xopq-DgTge04GiePZVfoh60wQYAZf6mJh0Kc0BMudooQnNEkSnqcSOp3EhGX4K9RHgMvlrqsfIoRfT2Ok5hshXOM_QlcHKN9-Gz1XOoGqaIJyf7pee3LvvMLHtEHQ=w232-h173-v0
+Máster en Ingeniería Informática Gestión y gobierno en Tecnología de la Información
+6
+4. DESARROLLO
+4.1 Tarea 1: Diagnóstico de la Situación Actual y Aplicación Principios
+ISO/IEC 38500
+4.1.1 Análisis de los Principios ISO/IEC 38500
+Principio: Responsabilidad
+Aspecto Descripción
+Manifestaciones de incumplimiento y ejemplos
+Compras sin responsabilidad: las diferentes áreas solicitan aplicaciones o módulos de los cuales no se responsabilizan de su mantenimiento. Ejemplo: el área de ventas exigió un módulo BI que no están utilizando y que a la fecha se sigue pagando su licencia.
+Causas raíz El modelo de financiación está centralizado como centro de coste. Falta de propiedad de los activos TI por parte del negocio.
+Consecuencias Ineficiencia en capital. El CFO ha reportado que el departamento de TI absorbe gastos en donde las áreas no miden el beneficio real.
+Medidas propuestas Se propone migrar a un modelo de costes mixtos, en donde el departamento que solicita el proyecto lo financie.
+Roles responsables Responsable: Directores de área. Aprobador: CFO/CIO.
+Principio: Estrategia
+Aspecto Descripción
+Manifestaciones de incumplimiento y ejemplos
+Inversiones reactivas: se compra tecnología para solucionar problemas, pero que no aportan al negocio. Ejemplo: se digitalizan procesos aislados en Excel en lugar de integrar el core de siniestros.
+Causas raíz Desconexión entre los objetivos estratégicos y la planificación técnica, en donde se ve al departamento de TI como soporte y no como socio.
+Consecuencias Incapacidad para alcanzar los objetivos 2026.
+Medidas propuestas Se propone crear un Plan Estratégico de TI, alineado con los KPIs de negocio.
+Roles responsables Responsable: CIO. Aprobador: Director de Negocio.
+Principio: Adquisición
+Aspecto Descripción
+Manifestaciones de incumplimiento y ejemplos
+TI en la sombra: los departamentos compran software con tarjetas corporativas si contar con la aprobación del departamento de TI. Ejemplo: el departamento de ventas contrató un servicio de mailing externo que no se integra con Salesforce.
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzXj39mfpVPcLExamr-n5WkFfBxwum3dgMB0SghI9mucXRA1AyTYJZC8bL6b7kmA_UPJSrdPGj--I85gMurkgNmPBTW5TTncA2vJu6iRn0GbIzBTUgNuSTYKioBdpQxjMawTYfu4g=w232-h173-v0
+Máster en Ingeniería Informática Gestión y gobierno en Tecnología de la Información
+7
+Aspecto Descripción
+Causas raíz Falta de definición de políticas de adquisiciones y procesos burocráticos en TI, que hacen que las áreas se salten el canal oficial.
+Consecuencias Duplicidad de costes y riesgos de seguridad. El CFO identifica contratos fantasmas y el CIO advierte que hay una falta de integridad en los datos.
+Medidas propuestas Implementar una política de adquisiciones de TI, que requiera una validación técnica del CIO y financiera por parte del CFO, antes de la realización del cualquier pago.
+Roles responsables Responsable: responsable de compras. Aprobador: CFO/ CIO
+Principio: Rendimiento
+Aspecto Descripción
+Manifestaciones de incumplimiento y ejemplos
+Sistemas lentos y dispersos: los tiempos de respuesta en siniestros son elevados (15 días). Ejemplo: el sistema de siniestros se cae constantemente o trabaja lento en horas pico de gestión de salud.
+Causas raíz Falta de SLAs definidos con el negocio. Se mide la disponibilidad técnica pero no el rendimiento del proceso.
+Consecuencias La directora de operaciones reporta que existe una baja satisfacción de los clientes, lo que causa un impacto económico por pérdida de asegurados debido a la lentitud.
+Medidas propuestas Implementar un cuadro de mando TI para medir el rendimiento desde la perspectiva de los clientes (ejemplo: el tiempo de carga del CRM < 2 segundos).
+Roles responsables Responsable: CIO. Aprobador: Directora de Operaciones.
+Principio: Cumplimiento
+Aspecto Descripción
+Manifestaciones de incumplimiento y ejemplos
+Uso de archivos locales para datos de salud: existe información sensible tratada y circulando mediante archivos de Excel, correos electrónicos o medios locales. Ejemplo: listado de patologías de clientes guardados en carpetas compartidas.
+Causas raíz Escasa o mala cultura de ciberseguridad y de herramientas integradas que obliguen al cumplimiento de la GDPR por diseño.
+Consecuencias Riesgo elevado de sanciones legales graves debido al mal tratamiento y uso de los datos de los clientes. Esto amenaza la reputación de Seguros Plus en caso de ocurrencia de alguna brecha de datos de salud.
+Medidas propuestas Realizar una auditoria forense de datos e implementar políticas que prohíban el uso de Excel y medios locales para datos de clientes y migrar todo al CRM/ERP protegido.
+Roles responsables Responsable: CIO. Aprobador: Director de Negocio.
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzg2QHbLql4mhoo4wBFetae9d6MOq8HCAoOIyCP11IduEjYsf8IudXCb3W2_fIxlZberBw2aABfUsMB-FTVYl7JtRVMcITYUtGMEcKDniCLWZlxssISz_8tIt2YgpF2rveGvS-aSw=w232-h173-v0
+Máster en Ingeniería Informática Gestión y gobierno en Tecnología de la Información
+8
+Principio: Comportamiento Humano
+Aspecto Descripción
+Manifestaciones de incumplimiento y ejemplos
+Resistencia al cambio: los agentes prefieren utilizar métodos manuales por falta de confianza en el sistema. Ejemplo: muchos agentes siguen anotando los siniestros en papel en lugar de ingresarlos directamente en el sistema.
+Causas raíz El departamento de TI no involucra a los usuarios en el diseño de soluciones, además, no se planifican capacitaciones continuas a los empleados.
+Consecuencias Baja adopción de herramientas tecnológicas implementadas como Salesforce. La directora de operaciones ha detectado que los procesos digitales no fluyen.
+Medidas propuestas Lanzar un programa de embajadores digitales y formación gamificada para incentivar el uso correcto de las plataformas corporativas.
+Roles responsables Responsable: Directora de Operaciones. Aprobador: Director de Negocio.
+4.1.2 Interrelación entre los principios y visión integrada
+El diagnóstico de Seguros Plus, revela que el uso de la tecnología puede funcionar como un
+habilitador clave, pero que actualmente no está funcionando de esa forma. La falta de
+gobernanza ha creado un círculo vicioso de ineficiencia que está afectando a los cuatro roles
+principales:
+• La Brecha entre Negocio y TI: Desde la perspectiva del Director de Negocio, al incumplirse
+los principios de Estrategia y Responsabilidad se genera un gran obstáculo. El objetivo
+estratégico establecido de digitalización del 80% de los procesos es una meta inalcanzable
+considerando que cada área trabaja de forma aislada e independiente. No existe una
+conexión estratégica entre el Negocio y TI. Por una parte Negocio marca las metas de
+velocidad pero deja de lado la responsabilidad de dar prioridad a las inversiones técnicas
+que se requieren para lograrla.
+• El desafío operativo y del usuario: La Directora de Operaciones es quien sufre las
+consecuencias de la deficiencia en el rendimiento. Al tener los sistemas dispersos lo
+empleados se sienten obligados a realizar las tareas de forma manual, lo que viene a
+degradar y afectar significativamente la experiencia de los clientes, ya que la atención de
+los siniestros tarda 15 días. Todo esto alimenta el principio de comportamiento humano
+de forma negativa. Si la herramienta actualmente implementada no ayuda o es compleja
+de usar debido a la falta de capacitaciones, los usuarios la evitarán y recurrirán a utilizar
+soluciones informales que el CIO no puede controlar.
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwXi22fk0ebYUFlysYK9ITySCSIeHi9X4qUiQOCMNrhxdgdFCfrQOnB5P32RYJvSaaNHynkMRZBOnrLLRgShnnoJmNAVEXv7mkZpOJfzobP6HP7PIqw6WEJF-cG6JCdWngJ9AzmhQ=w232-h173-v0
+Máster en Ingeniería Informática Gestión y gobierno en Tecnología de la Información
+9
+• La sostenibilidad financiera: Desde el punto de vista del CFO, la organización se
+encuentra en una situación económicamente insostenible, debido a que el modelo
+centro de coste impide ver el valor real de TI. El incumplimiento de las adquisiciones
+ocasiona una fuga de presupuesto en la compra de licencias innecesarias. Hace falta la
+visión de inversión medible (ROI) y eso impide que Seguros Plus sepa si el presupuesto
+anualmente invertido está realmente generando crecimiento o solo está manteniendo
+sistemas obsoletos.
+• Riesgos técnicos y de cumplimiento: El CIO por su parte, se encuentra en una posición
+reactiva. Al no existir una gobernanza clara, se dedica la mayor parte de su tiempo a
+resolver problemas que surgen en el momento. El riesgo más grave es el de
+cumplimiento, esto debido a la dispersión de los datos de salud de los clientes en hojas
+de cálculo lo cual considera que es cuestión de tiempo que surjan problemas legales
+debido al mal tratamiento de los datos sensibles de los clientes, lo cual podría afectar la
+reputación de le empresa.
+De una forma resumida, se puede decir que Seguros Plus, antes de adquirir más tecnología,
+lo primero que se debe hacer es gobernar la tecnología existente. La transición hacia un
+modelo sugerido por ISO/IEC 38500 en donde la dirección evalúa, dirige y supervisa, es
+urgente para la compañía y para alinear el presupuesto del CFO con las mestas del Director
+de Negocio y las necesidades de los usuarios.
+4.2 Tarea 2: Principios de Alineación Negocio/TI
+4.2.1 Inversión basada en objetivos de la empresa
+Principio: Toda iniciativa o propuesta de inversión tecnológica superior a 5.000 € debe ir
+alineado a cumplimentar la obtención de un objetivo estratégico y además debe justificar su
+retorno de inversión o su impacto directo en la producción, rendimiento o incremento de
+satisfacción del cliente.
+Justificación: Es de suma importancia para Seguros Plus pasar a una política o cultura de realizar
+inversiones que sean medibles, evitando proyectos que no aportan valor real al negocio.
+Ejemplo de aplicación: Previo a ejecutar el proyecto de renovación o refactorización del portal
+de clientes se deberá documentar y justificar que la inversión contribuirá a reducir las llamadas
+directas al call center y mejorará las métricas de satisfacción del cliente.
+Responsables: director de negocio y CFO.
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxY9MpVzpyxGx6952I466i8iEpMQ4kekX8rABSdSOxyI6Vm1hjcEjfcnKPKCkMi2YVG4YZvVnvf0SSz5HvZVx7aPL9Esayk7BZdmBMFafKyHB53BM5_2cIR1RTzyp4OX8pkjtJTsA=w232-h173-v0
+Máster en Ingeniería Informática Gestión y gobierno en Tecnología de la Información
+10
+Mecanismo: Se generará una propuesta de proyecto la cual se enviará a la junta directiva de
+Seguros Plus para su aprobación, posteriormente se enviará a comité de compras para la
+liberación de fondos.
+4.2.2 Responsabilidad Financiera mixta
+Principio: Los proyectos con costes tecnológicos específicos de un área estarán financiados con
+un modelo mixto, y será cubierto con el presupuesto del área solicitante y un porcentaje del
+presupuesto de TI.
+Justificación: Con esta medida se eliminan los escenarios donde las distintas áreas adquieren
+aisladamente tecnologías sin conocer su alcance tecnológico o aplicabilidad o inclusive la
+redundancia de herramientas por estar fuera del foco de TI.
+Ejemplo de aplicación: Si el área de Recursos Humanos requiere la implementación de un
+software de capacitación para personal, se puede establecer que el 40% del coste de las
+licencias será cubierto del presupuesto del departamento de Recursos Humanos y el otro 60%
+del presupuesto de TI.
+Responsables: directores de cada departamento o área, CIO y CFO.
+Mecanismo: Se realizará revisiones o auditorías de manera trimestral para verificar los costes
+por departamento y obtener reportes de consumo de recursos.
+4.2.3 Integración por diseño y reducción del Shadow IT
+Principio: No se permite la contratación de software o servicios externos de forma
+independiente para todos los departamentos o áreas, para adquirir un nuevo software o
+servicio previamente de deberá realizar una validación técnica por parte del CIO y área de TI,
+con la finalidad de asegurar que la implementación se integre correctamente con el ecosistema
+de Seguros Plus y cumpla las políticas de cumplimiento.
+Justificación: Se evita la existencia de sistemas dispersos o legados, se elimina la duplicidad de
+costes y riesgos de incumplimiento de políticas de cumplimiento y de seguridad, y reduce las
+vulnerabilidades de ciberseguridad por el uso de herramientas no autorizadas.
+Ejemplo de aplicación: El departamento de ventas no podrá adquirir una plataforma de
+mensajería o notificación masiva sin que el CIO realice una validación de integración con el CRM
+y la seguridad de los datos.
+Responsables: CIO y CFO.
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzbmA40XVyXca6iieHvJpLdCq6N1sO0b2j_Am-vCi1qgwWn-WjWoRcouN7_5-bgGxGtBDUtunY0b8dBHyHc5NDv43kD-Pbk-ywrwpsrjMjcAHjhTzH6skUVww33ZB5FUbCGfq3bvQ=w232-h173-v0
+Máster en Ingeniería Informática Gestión y gobierno en Tecnología de la Información
+11
+Mecanismo: Se creará una política interna sobre la Adquisición de Servicios y aprobación de
+proveedores con nivel de cumplimiento obligatorio, la cual se debe de cumplir antes de
+cualquier firma de contrato.
+4.2.4 Priorizar una estrategia transversal
+Principio: EL comité de Gobernanza o Junta directiva priorizará las iniciativas o
+proyectos de TI estén alineados con el objetivo estratégico de digitalización del 80% de
+procesos, sobre de las necesidades departamentales aisladas de poca prioridad.
+Justificación: Se asegura que los recursos limitados de TI se enfoquen en las tareas y
+proyectos que generan valor estratégico a la empresa.
+Ejemplo de aplicación: Se priorizará la integración del Sistema de Siniestros con el CRM,
+sobre la iniciativa de actualización estética de la intranet.
+Responsables: Director de Negocio y CIO.
+Mecanismo: Matriz de priorización de proyectos que se revisará mensualmente y que
+estará basado en impacto estratégico, coste y POA.
+4.2.5 Propiedad, custodia y seguridad de la información
+Principio: El negocio es el dueño de la calidad y uso de los datos, mientras que TI es el
+responsable de custodiar su integridad y seguridad. Por lo que no se permite la creación
+de bases de datos paralelas en archivos locales y hojas de cálculo que contengan
+información confidencial y datos sensibles de clientes.
+Justificación: Se reduce la problemática de la información dispersa y promueve la
+práctica de que toda la organización trabaja con información confiable.
+Ejemplo de aplicación: Los agentes no deben guardar información de los casos de
+siniestros en sus ordenadores asignados, ya que toda actualización debe realizarse
+directamente en el CRM o la plataforma de siniestros.
+Responsables: CIO y Responsable de Operaciones.
+https://lh3.googleusercontent.com/notebooklm/ANHLwAziunno_NOFuTnSrPtGs5G3UdgWrZpoH8NjjsW-bkYgtzEnUYJ_CJV8-MoPd6-vGf7oSu7oHe_7YAafz9NwhMo_hejJyuvk4AuJZR6hUUL0gNxR9vWSy4o7khoyO8iYRfFJui4YYw=w232-h173-v0
+Máster en Ingeniería Informática Gestión y gobierno en Tecnología de la Información
+12
+Mecanismo: Implementar políticas de etiquetado de datos, además de auditorías de
+datos periódicas y eliminación de procesos manuales que utilizan hojas de cálculos
+fuera de red y bases de datos independientes.
+4.2.6 Diseño Orientado a la Experiencia del Usuario (UX)
+Principio: El desarrollo o refactorización en sistemas debe aplicar metodologías y
+mejores prácticas de desarrollo y UX contando con una fase de validación con los
+usuarios finales, para asegurar su usabilidad.
+Justificación: Disminuye la resistencia al cambio y permite asegurar que las mejoras o
+cambios realmente facilitan el trabajo en lugar de aumentar la complejidad.
+Ejemplo de aplicación: Previo a la puesta en producción de la nueva versión del portal
+de Clientes de Seguros Plus, se organiza una demo donde un grupo de empleados del
+departamento de finanzas realizará pruebas de usabilidad para detectar errores o malas
+prácticas que afecten la operatividad.
+Responsables: Directora de Operaciones y CIO.
+Mecanismo: Implementación de Pruebas de Aceptación de Usuario obligatorias antes
+de pasar a producción.
+4.2.7 Transparencia y comunicación proactiva
+Principio: El departamento de TI será el responsable de mantener informadas a las
+áreas de negocio respecto al estado operativo de los servicios y reportar los avances de
+los proyectos a través de informes con indicadores claros y lenguaje no técnico.
+Justificación: Se mejorará la confianza entre las áreas y se disminuye la percepción de
+TI como el área a la que solo se le reportan los problemas.
+Ejemplo de aplicación: La publicación de un Dashboard en el portal de TI en la intranet
+que muestre el estado de la disponibilidad de los servicios críticos como ser el Portal de
+clientes y el CRM, también se podrán incluir el reporte de cumplimiento de los distintos
+proyectos.
+Responsables: CIO.
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxnlyEnRGMpLmRMpuDqz4HS4iRUdeTN3QBvymGXEm0M1DlufOLCgZXDcDZW8bjLJqO0Mcr07uk3xKUurUtfkh95Z183MeZEDsjwVslAeuEBHUzSln7vPLGThFxffMzr5utCxF1GYg=w232-h173-v0
+Máster en Ingeniería Informática Gestión y gobierno en Tecnología de la Información
+13
+Mecanismo: Reunión mensual o quincenal de seguimiento operativo, con los
+representantes o gerentes de cada área.
+4.2.8 Gestión compartida del riesgo tecnológico
+Principio: Toda actividad de identificación y gestión de riesgos tecnológicos como ser
+los hallazgos de ciberseguridad y seguridad de la información es una responsabilidad
+conjunta entre las áreas, ya que el negocio debe definir el impacto y el área de TI define
+la solución técnica o medidas para mitigarlos.
+Justificación: Los riesgos de TI pueden llegar a representar riesgos en el negocio que
+pueden afectar la reputación, la operatividad y la legalidad de Seguros Plus.
+Ejemplo: Si se identifica una vulnerabilidad en el manejo de información de siniestros,
+las áreas de Negocio y TI deben acordar el plan de mitigación respecto a la seguridad y
+operatividad.
+Responsables: CIO y Director de Negocio.
+Mecanismo: Se deberá incluir una sección de Riesgos TI dentro de la evaluación de
+riesgos de Seguros Plus.
+4.3 Tarea 3: Metas de Negocio y Metas de TI Alineadas
+4.3.1 Parte 1: Definición de Metas Estratégicas de Negocio
+A continuación, se presentan 5 de las metas estratégicas que guiarán a Seguros Plus
+en los próximos 3 años:
+1. Perspectiva Financiera: Eficiencia y Sostenibilidad
+Meta: “Reducir la ratio de costes operativos administrativos por cada póliza que
+se genere en un 15% para diciembre 2028 (5% anualmente), a través de una
+consolidación tecnológica y eliminando las licencias redundantes”.
+Justificación: esta meta responde a la necesidad del CFO de transformación
+presupuesto de TI en una unidad de inversión eficiente que optimice los 250.000€
+anuales disponibles.
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyLApTpTlUixBI9VSFSAVQJFjd28u296Kei2RWLDsMz0ik3NGXFX-meMjkfFveMVSJaDIZd3kNUjjrdwnyuBV3QIQ8cvrAKkrVQq76a3WxgrU_H6fHNGh0728z5SPhsG03AarXd=w232-h173-v0
+Máster en Ingeniería Informática Gestión y gobierno en Tecnología de la Información
+14
+2. Perspectiva del Cliente/Usuario: Excelencia en el Servicio
+Meta: “Incrementar el índice de satisfacción de los clientes (NPS) del valor actual
+62% hasta alcanzar un incremento de 20% en un período de 24 meses (10%
+anualmente)”.
+Justificación: este es un objetivo estratégico clave para la organización que le
+permitirá diferenciarse en el sector seguros de salud y vida, a través de la atención
+y la agilidad.
+3. Perspectiva de Procesos Internos: Transformación Digital
+Meta: “Alcanzar la digitalización y automatización del 80% de los procesos
+internos críticos, priorizando en la emisión de pólizas y reporte de siniestros, antes
+de finalizar el año 2027”.
+Justificación: esta meta es central en la organización, ya que se requiere
+solucionar el problema de sistemas dispersos y la dependencia de los procesos
+manuales o realizados mediante papel o Excel.
+4. Perspectiva de Procesos Internos: Agilidad en Siniestros
+Meta: “Reducir el tiempo de tramitación y resolución de los siniestros de salud,
+pasando un período de 15 días a un máximo de 5 días hábiles para el tercer
+trimestre de 2026”.
+Justificación: esta meta aborda directamente el desafío principal de la empresa,
+ya que la rapidez en la gestión de siniestros es la promesa de valor fundamental
+de Seguros Plus para particulares y PYMES.
+5. Perspectiva de Aprendizaje y Crecimiento: Capacitación y Adopción
+Meta: “Asegurar que el 100% del personal operativo y la red de agentes complete
+satisfactoriamente el programa de capacitación y certificación en el uso avanzado
+del CRM antes de junio de 2028”.
+Justificación: esta meta viene a mitigar el riesgo de resistencia al cambio y
+comportamiento humano, garantizando que la inversión que se realiza en
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzR4ZwpHPWWbNoFVUKn2HRJdSxIa5DsYn9GNpxwHyLwtG8AASJwXBB3_cadJc7MKeKauYk68EIL7KpokuYDuids7OP8OKdeRAcivjhYHxRaJ64kngCg7TDkoGY9MlES3MF3D3f6=w232-h173-v0
+Máster en Ingeniería Informática Gestión y gobierno en Tecnología de la Información
+15
+tecnología sea traducida en una adopción real y efectiva por parte de los
+empleados de la compañía.
+4.3.2 Parte 2: Definir Metas de TI Alineadas
+Meta de Negocio 1: Reducir los costes operativos administrativos en un 15% para
+diciembre 2028.
+A continuación se detallan las metas de negocio desglosadas en objetivos técnicos
+específicos bajo el marco COBIT, indicando la relación causal que justifica la
+inversión:
+1. Meta de Negocio 1: Reducción del 15% en costes administrativos para diciembre
+de 2028.
+Justificación del CFO: Se requiere sanear el presupuesto de 250.000€ eliminando
+la redundancia para invertir en innovación.
+Metas TI relacionadas:
+• Meta TI 1.1: Implementación de un Sistema de Gestión de Activos de
+Software, para eliminar licencias de software que no están en uso.
+Relación: al monitorizar el tiempo real de uso de cada una de las licencias de
+software, el departamento de TI puede identificar y dar de baja cuentas de
+usuarios que se encuentren inactivas o duplicadas. Esto reduce el gasto directo
+en licencias sin uso y permitirá alcanzar el ahorro anual de 5% solicitado por
+Finanzas.
+• Meta TI 1.2: Migrar el 60% de la infraestructura local a servicios Cloud, con
+modelo de pago por uso (AWS).
+Relación: esto transforma los costes fijos de mantenimiento de servidores
+físicos en costes variables optimizados, lo que reduce el gasto en consumo de
+energía y soporte técnico.
+2. Meta de Negocio 2: Incrementar el nivel de satisfacción de los clientes (NPS) en
+un 20% en 24 meses.
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwDHKFIjNpVI-aj6nC8SdsBshSCXDq1-OmHopKwJG5udAEPGEk2btrBZ8CaBFOKG9uWVlod0Qgshc7_EcAoy2FohSeXKYNPhsbtG7XYQlideqqCMGjdjRb7bnKjrCaB36XPmlcz=w232-h173-v0
+Máster en Ingeniería Informática Gestión y gobierno en Tecnología de la Información
+16
+• Meta TI 2.1: Asegurar la disponibilidad del 99.9% en el portal web de
+clientes.
+Relación: La estabilidad en el servicio genera confianza en los clientes, ya que
+pueden realizar consultas sobre sus pólizas siempre que lo necesiten, lo cual
+mejora su percepción sobre la calidad del servicio.
+• Meta TI 2.2: Reducir los tiempos de carga de las aplicaciones de cara al
+cliente a menos de 2 segundos.
+Relación: esto genera una experiencia digital fluida y rápida, lo que impacta
+positivamente en la experiencia del usuario y en las encuestas de satisfacción.
+3. Meta de Negocio 3: Digitalizar y automatizar el 80% de los procesos críticos
+antes de finalizar el año 2027.
+• Meta TI 3.1: Desplegar un motor de fujo de trabajo integrado que conecte
+ventas con la emisión de pólizas.
+Relación: esto permite eliminar el uso de correo electrónico y documentos
+físicos, lo que hace que la información sea tratada digitalmente de extremo a
+extremo, sin que exista una intervención manual.
+• Meta TI 3.2: Sustituir el 100% de las firmas manuscritas en contratos por
+soluciones de firma digital legalmente vinculadas.
+Relación: esto hará que el proceso de contratación sea 100% digital y se pueda
+realizar de forma remota, cumpliendo el objetivo de transformación.
+4. Meta de Negocio 4: Reducir la resolución de siniestros de 15 a 5 días hábiles
+para el tercer trimestre de 2026.
+• Meta TI 4.1: Integrar la plataforma de siniestros con el CRM de atención al
+cliente.
+Relación: esto elimina la entrada doble de los datos y tiempos de espera de
+sincronización, permitiendo al equipo de operaciones validar reclamos de
+forma inmediata.
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzsbk43JXLJCG9sEBNTffNprJd9v7Ymu8jAXdHGk2LmusyrmWhbcEfdu9JEycXr77qxafY-iRsp2JHKgvkipcXLbD65lMhzWdqrmk174XXGTON_Usu0axTyp_3Fs9lQdw-Z8qyEBw=w232-h173-v0
+Máster en Ingeniería Informática Gestión y gobierno en Tecnología de la Información
+17
+• Meta TI 4.2: Desarrollar un sistema de alertas automáticas para notificar al
+cliente sobre los avances en su expediente.
+Relación: se reduce la carga de consultas al call center, permitiendo que los
+agentes se concentren en la resolución efectiva del siniestro.
+5. Meta de Negocio 5: Capacitación y certificación del 100% del personal operativo
+en el uso de herramientas digitales para junio de 2028.
+• Meta TI 5.1: Implementar una plataforma E-Learning integrada con el
+directorio corporativo para la formación continua.
+Relación: esto proporciona la infraestructura necesaria para que el personal
+se capacite de forma constante, autónoma y medible.
+• Meta TI 5.2: Establecer una base de conocimientos interactiva con guías
+rápidas de uso y videotutoriales accesibles desde las herramientas.
+Relación: esto facilita el aprendizaje en el puesto de trabajo y reduce la curva
+de resistencia al cambio y ayuda a fomentar la autoformación a través de un
+comportamiento humano positivo.
+4.3.3. Parte 3: Matriz de Alineación
+La siguiente matriz muestra las relaciones entre las metas de negocio y las metas TI,
+evaluando la intensidad de su contribución.
+Metas de Negocio
+Metas TI
+1.1 1.2 2.1 2.2 3.1 3.2 4.1 4.2 5.1 5.2
+Reducir costes
+operativos 15%
+P P P S S
+Satisfacción NPS > 20%
+P P S S P S
+Digitalización 80%
+procesos P P P P
+Agilidad 15 a 5 días
+hábiles P S P P S
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyBI_j6oWIPCPh4W4UVgt9dgsPhf3Ib-i97BMY6cbjsXvZIXk7UJIzucjskJ52xMD-2yDQlw_tWjaUWtLkXcz8q7V5brlqgNbxh2Hp4bPJr0W5ZBPXqE7dS8Y_weDbcx79ifkpu5Q=w232-h173-v0
+Máster en Ingeniería Informática Gestión y gobierno en Tecnología de la Información
+18
+Metas de Negocio
+Metas TI
+1.1 1.2 2.1 2.2 3.1 3.2 4.1 4.2 5.1 5.2
+Capacitación y
+certificación P P
+Leyenda:
+• P: Relación primaria, impacto directo. Sin esta meta de TI, el objetivo de negocio
+no puede ser alcanzado.
+• S: Relación secundaria: impacto indirecto. Contribuye significativamente pero no
+es un único factor.
+Tras la elaboración de la matriz, se han identificado tres áreas fundamentales de
+sinergia que definen el éxito del proyecto:
+1. La digitalización de siniestros
+Se observa que existe una relación entre las metas primarias de digitalización
+(MN 3) y la agilidad en siniestros (MN 4), con las metas de TI 3.1 y TI 4.1.
+Desde la perspectiva de Operaciones, esta es la sinergia más crítica para los
+agentes, ya que si el motor de flujo conecta las ventas con la emisión de pólizas
+y el CRM con la plataforma de siniestros, se elimina el tiempo perdido al hacer
+uso de mecanismos manuales. La tecnología no solo sirve como apoyo sino que
+además, define el proceso de negocio.
+2. La estabilidad como base de confianza
+Aunque la disponibilidad (TI 2.1) y la velocidad de carga (TI 2.2) se asocian
+directamente con el NPS (MN 2), también tienen un impacto secundario en la
+eficiencia, ya que un sistema lento obliga al personal de operaciones a trabajar
+una mayor cantidad de horas para poder procesar la misma cantidad de pólizas.
+Desde la perspectiva del CIO, no es posible alcanzar una digitalización del 80%
+de los procesos cuando los sistemas son lentos o se caen. La excelencia
+operacional en TI es el crecimiento sobre el cual se construye la experiencia del
+cliente.
+https://lh3.googleusercontent.com/notebooklm/ANHLwAw52gMnMAq3DedrX0X5r3IYquLuw6f3SoX314teMdVr_FnCX_NzKVJp65O3Z5GkJWSERfzEKYEMKj4EKJq2SpjwJfNn4civd3d36tnnX16RwRPHLHTrG50Uzp4BmpHhME-5ea2QfA=w232-h173-v0
+Máster en Ingeniería Informática Gestión y gobierno en Tecnología de la Información
+19
+3. Sostenibilidad financiera y reutilización de capital
+La meta TI 1.1 es inicialmente necesaria para la meta financiera, pero permite
+liberar presupuesto.
+Desde la perspectiva del CFO, al sanear el presupuesto de 250.000€ identificando
+aquellas licencias que no se están utilizando, se estaría creando un fondo de
+innovación necesario para la financiación de las metas de Firma digital. La meta
+técnica es la que hace viable todo el plan de transformación.
+Contribución de los roles:
+La matriz elaborada ha sido el producto de la negociación activa entre los diferentes
+roles:
+• Director de Negocio: ha liderado la jerarquización de las metas de negocio,
+asegurándose que el NPS y la agilidad en siniestros sean las prioridades que
+guíen el esfuerzo técnico para recuperar la cuota de mercado.
+• CIO: ha sido el encargado de diseñar la viabilidad de la Metas de TI, señalando
+que la integración (TI 4.1) deber ser previa o de forma simultánea al sistema de
+alertas (TI 4.2) para que los datos sean coherentes y para ello ha aportado el
+rigor técnico necesario en la clasificación COBIT.
+• FCO: si papel ha sido actuar como validador de mentalidad, exigiendo que la
+meta TI 1.1 y 1.2 tengan indicadores financieros claros medibles en cantidad de
+Euros ahorrados, para confirmar que el objetivo de reducción de costes de 15%
+sea auditable en 2028.
+• Directora de Operaciones: ha sido la voz de los usuarios finales. Cuya
+intervención ha sido clave para elevar la Firma Digital (TI 3.2) a un nivel
+prioritario para la digitalización, ya que ha argumentado que sin ella no es
+posible que los procesos realizados en el papel dejen de existir en la cadena.
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyBDaky0vtEXNpaH4tfGl3QtryA_-VssDRtKpNDJl7N1PvSVCjmzwEPAa3cT__kPlznQl_AbTSt31CN3vRZCWmvl3TJw8FPzAl2XawkoBWvWHlFi1_XWbTHmwoUmxz8b7P6enomFA=w232-h173-v0
+Máster en Ingeniería Informática Gestión y gobierno en Tecnología de la Información
+20
+4.4 Tarea 4: Estructura y Mecanismos de Gobernanza
+4.4.1 Parte 1: Proponer Estructura de Gobernanza
+Comité Estratégico de Transformación Digital (Reunión Trimestral): Ve los temas a nivel
+estratégico y es el órgano de gobierno que se cerciora que las iniciativas y proyectos
+tecnológicos se alinean a los objetivos estratégicos de la empresa.
+Composición: Director de Negocio, CIO, Directora de Operaciones y CFO.
+Decisiones: Revisión, ajuste y aprobación del Plan Estratégico de TI 2026-2028, Revisión de
+las inversiones estratégicas, Evaluación del cumplimiento de las metas SMART de negocio,
+Gestión de riesgos corporativos de alto impacto en Ciberseguridad y operatividad.
+Comité de Compras e Inversiones (Reuniones Mensuales): Este comité ve los temas de
+control económico y es la respuesta a la iniciativa del CFO, respecto a transformar el gasto
+a una inversión medible que genere valor.
+Composición: Liderado por el CFO, CIO y el Director o gerente del área que solicita la
+inversión.
+Decisiones: Aprobación de las iniciativas de negocio para proyectos de inversión media
+(5.000 € - 15.000 €), Supervisión del reparto de costes según el modelo de cofinanciación
+entre las áreas, Seguimiento del ahorro generado debido a la eliminación de contratos
+innecesarios y la reducción de Shadow IT, Auditoría del retorno de inversión de los
+proyectos finalizados.
+Comité Operativo de Integración y Servicios (Reuniones Mensuales, o quincenales de ser
+requerido): Este comité está enfocado a ver los temas de nivel táctico eliminando los
+sistemas dispersos, disminuyendo los sistemas legados y asegurar que las herramientas
+funcionen y sean utilizadas correctamente por los agentes.
+Composición: Liderado por el CIO, la Directora de Operaciones y Gestión de Clientes,
+Subgerentes o jefes de áreas de Siniestros y Ventas.
+Decisiones: Se dará prioridad a los proyectos operativos y mejoras en el CRM/ERP,
+Resolución de conflictos de integración entre la plataforma de siniestros y CRM.
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxq_tX-t3YpdC9JyvquKE3JwKIQ57m3aiWh9i-HwC9oqzz6SAMoXoOANjS9iUZYWmoQkYC5bGzosoZZIrgup0EOJsikt18JFr8_v8-AXQev01IpZaiFjUGxsDKsMMhPbRrWOCdv6A=w232-h173-v0
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzLKMQfvnDvhgQxOSNE85yN2WSg1B4DKz1Y6ewn1x_c0xQ8-L_LxZP1F8cmi-ndIMECehJgD3mYm9sdmeiAfAYGx8FqFJjy0bg7fz6GehO3JKPS1RBHP2P3HRXz_58wBzSauml_=w782-h333-v0
+Máster en Ingeniería Informática Gestión y gobierno en Tecnología de la Información
+21
+Seguimiento de los niveles de servicio SLAs y métricas de rendimiento de los sistemas.
+Creación y despliegue de planes de capacitación para evitar la resistencia al cambio.
+4.4.2 Parte 2: Definir Mecanismos de Relación Negocio-TI
+1. Procesos de Planificación Integrada: Cada mes de octubre, el Director de Negocio será
+el encargado de presentar las iniciativas de proyectos y objetivos para el año siguiente.
+En esta misma reunión y por parte del CIO se comunicarán las necesidades de
+infraestructura y software para alcanzar esos mismos objetivos. Todo presupuesto
+asignado y ejecutado por TI está vinculado a un habilitador de negocio o al
+cumplimiento de un objetivo estratégico.
+2. Metodología de Gestión de Proyectos: Para promover un trabajo y responsabilidad
+compartida en el desarrollo de cada proyecto de Seguros Plus se nombrará un rol de
+Dueño del producto que será asignado por el área del negocio que lidera o solicita el
+proyecto, y que coordinará las sesiones semanales con los miembros de las áreas
+técnicas, financieras y de operaciones que estén relacionadas al servicio o proyecto con
+la finalidad de llevar un control de los avances y bloqueos.
+El seguimiento de la evolución del proyecto se llevará utilizando Scrum de seguimientos
+y Sprint con presentación de demos de avances para proyectos técnicos de desarrollo.
+3. Sistemas de Comunicación: Para promover la imagen de TI y su rol como habilitante se
+establecerán canales como vía de comunicación oficiales de actualizaciones, campañas
+de concientización, notificaciones de políticas, entre otros.
+https://lh3.googleusercontent.com/notebooklm/ANHLwAw3hPq3U4J-_os-eSZXWUsxVCkiUGJncr-19QbBRZxli2gY2DbmQLE6t-XYDKxZQCKP7YtLaujOMbkS_QoBHkn614Bl3WfXY4A0n4ccQlzltVbk9cFkcM5UkXLEPrV_c88gXHjMFg=w232-h173-v0
+Máster en Ingeniería Informática Gestión y gobierno en Tecnología de la Información
+22
+Boletines de comunicación donde se comparten políticas, manuales de uso,
+capacitaciones, y guías de buenas prácticas.
+Correos organizacionales con información de comunicación sobre cambios,
+mantenimientos de sistemas y actualizaciones sobre estados de herramientas
+tecnológicas.
+Foro de notificaciones de usuarios: Espacio orientado a la comunicación más directa
+donde los usuarios de Seguros Plus pueden reportar directamente al CIO y a la directora
+de Operaciones qué servicios o sistemas tienen problemas en su uso diario.
+4. Proceso de Priorización: Se desarrollará una matriz de prioridad de los servicios y tareas
+realizadas por TI donde se considera el Impacto al negocio, se valora la complejidad
+técnica, el coste o la reducción de coste relacionado. Las iniciativas, servicios o tareas
+con alto impacto y bajo esfuerzo se ejecutan de inmediato mientras que las de bajo
+impacto y alto esfuerzo se descartan
+5. Mecanismos de Resolución de Conflictos: Para la resolución de conflictos o toma de
+decisiones se aplicará un protocolo de escalado que llevará el desacuerdo a la Mesa
+de Operaciones. Si no hay consenso en 48 horas, el conflicto se eleva al Comité
+Estratégico. Donde se utilizará una matriz de prioridades que evalúa puntualmente la
+seguridad, cumplimiento legal, continuidad del negocio, nuevas funcionalidades.
+6. Sistemas de Medición y Seguimiento: Se utilizará un tablero donde se presentará el
+estado o progreso de los proyectos medido en tres dimensiones basados en objetivos
+propuestos.
+Métricas de Valor: esta será orientado para el director del Negocio y representa el
+porcentaje de procesos digitalizados en comparación a la meta establecida de 80% y su
+evolución.
+Métricas Financieras: esta será utilizado por el CFO y mostrará la información
+presupuestaria relacionada a cada proyecto.
+Métricas de Servicio: estas métricas utilizadas por el CIO para ver la disponibilidad o
+estatus de sistemas críticos y tiempo promedio de resolución de incidentes graves por
+parte del equipo de TI.
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyaLhTM0v3La8OwV6DsPRlnBvMX9YyTnyVj9XUCIUFqzMzI4Le8ov_o0fPLDlWaVltvPsDod-doYnjPxBcTqy2_RnE6DOrGHCDHmUWo0rnwB8BoMVAb9ta7VO45HSNC9Y1dudPA=w232-h173-v0
+Máster en Ingeniería Informática Gestión y gobierno en Tecnología de la Información
+23
+4.4.3 Parte 3: Proponer evolución del área técnica
+Equipo técnico: Actualmente el área de TI cuenta con 8 profesionales, lo que hace difícil de
+mantener un modelo de gobernanza transversal para Seguros Plus basado en ISO 38500 y
+realizar una transformación digital ambiciosa o en poco tiempo. Actualmente, el 45% del
+presupuesto de TI se destina a personal, pero este está enfocado en soporte técnico básico
+y administración de sistemas dispersos.
+No se recomienda un crecimiento alto en número de empleados, sino una reestructuración
+de perfiles apoyado de especialistas externos subcontratados para tareas no críticas que
+permita liberar al personal para asumir roles de gestión y gobierno en tareas prioritarias de
+alto valor para Seguros Plus.
+Perfiles Necesarios y Capacidades: Para que la propuesta de gobernanza funcione se debe
+incorporar o desarrollar los siguientes perfiles:
+Arquitecto de Soluciones e Integración: enfocado a solucionar el desafío de los sistemas
+dispersos y trabajar en la integración del CRM y la Plataforma de Siniestros.
+Analista de Datos y Cumplimiento: enfocado a disminuir el uso de hojas de cálculos con
+datos confidenciales y de clientes, asegurando el cumplimiento de la GDPR.
+Especialistas en el CRM: Consultor externo que experto en el CRM, servicios contratados
+en formato de bolsas de atención y se le utilizará en la vinculación del CRM y la plataforma
+de siniestros.
+El rol del responsable técnico: Anteriormente el CIO actuaba nada más como jefe de
+sistemas enfocado en que los servidores funcionen. En el nuevo marco de gobernanza, su
+rol pasa a ser de técnico a Gestor de Valor midiendo su trabajo por el cumplimiento de las
+metas de negocio.
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzyY_CgQlBrp-xlTxXYZ60vmsrKvM_pZLhS6O37b_ZZ-JGbkiYG3_EEELrolsZhkhDUwnSesWIw4ssoRHCxfFiqhiMfrAhGemq0MVERYjqSHzmpF60cC_yDozzVr8klJANHtLRCJQ=w232-h173-v0
+Máster en Ingeniería Informática Gestión y gobierno en Tecnología de la Información
+24
+4.4.4 Parte 4: Diseñar Plan de Despliegue
+El despliegue se divide en tres fases estratégicas que permite que la organización absorba
+los cambios de forma gradual. A continuación, se detalla el plan del primer año de trabajo
+con hitos (H) esperados.
+Actividad Mes
+1 2 3 4 5 6 7 8 9 10 11 12 Fase 1
+Lanzamiento del proyecto de Gobernanza H
+Auditorias y eliminación de licencias duplicadas
+x x
+Elaboración, autorización y publicación de la Política de adquisiciones de TI
+x x x
+Fase 2
+Reunión del Comité de Inversiones x
+Implementación del panel de Gobernanza x
+Inicio de la integración del CRM y la Plataforma de Siniestros
+x x x x H
+Fase 3
+Activación del modelo de Cofinanciación para el presupuesto del año siguiente
+x
+Auditoría del estado y cumplimiento de los Objetivos de Negocio en primer año
+x x
+Inicio redacción POA y plan estratégico siguiente año
+x
+Comunicación: En Fase 1 campana de enfocada en explicar por qué el Shadow IT es un
+riesgo para todos. Fase2 se publica el informe donde se muestra donde se invierte el
+presupuesto tecnológico.
+Quick Wins: en Fase 1 se obtiene un ahorro directo en el presupuesto de licencias mediante
+la limpieza de cuentas inactivas. En la Fase 3 se puede comprobar que se ha reducido el
+tiempo de atención de siniestros debido a los avances en el desarrollo de integración
+realizados en la Fase 2.
+Capacitación: En Fase 2 se imparten talleres para directores de área sobre cómo presentar
+una inversión tecnológica al Comité de Inversiones.
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzTo1B5AldmDvCvjQudHmgWgs6L0NUGD874xRNcElS98G5yY1ufUC4g06Pgf_uE1soESi_5_yqvL4SchW_M-Rt89cSw-fIJRqhVnD1tDv3YaFYyNYBE22TdpgqHbaJm5Zoisa3pTw=w232-h173-v0
+Máster en Ingeniería Informática Gestión y gobierno en Tecnología de la Información
+25
+5. CONCLUSIONES
+La decisión de Seguros Plus de implementar un marco de gobernanza de TI basado en
+ISO/IEC 38500 y COBIT representa un cambio significativo para la organización, necesario
+para asegurar su competitividad en el mercado de seguros.
+Principales Retos para la Implementación:
+La cultura y estructura actual de Seguros Plus será el obstáculo principal para transición
+hacia un modelo de gobierno formal, la limitación de TI de contar con 8 personas para dar
+soporte a 120 empleados, y enfocados en tareas operativas de bajo valor. Liberar a este
+personal de la carga operativa tareas de gestión y gobierno. La existencia de sistemas de
+ventas, CRM y siniestros que funcionan de forma independiente y ralentizan la operación
+diaria. La utilización de sistemas aislados, y la problemática que las áreas adquieren
+software de forma independiente sin el conocimiento del área de TI.
+Factores Críticos de Éxito
+Se requiere el compromiso de la Alta Dirección con la participación activa del Director de
+Negocio, el CFO y la Directora de Operaciones en los comités propuestos y alinear
+estratégicamente cada proyecto tecnológico a un objetivo de negocio, asegurando que TI
+sea un habilitador. Es necesario implementar una gestión basada en datos y KPIs claros que
+demuestren el retorno de la inversión al CFO. El éxito dependerá de que el personal
+operativo adopte las nuevas herramientas y servicios digitales, lo cual se puede lograr
+mediante programas de capacitación y certificación.
+Recomendaciones Finales
+Creación de los comités propuestos para centralizar la toma de decisiones y el control del
+presupuesto. Realizar la fase de auditoría y eliminación de licencias duplicadas para generar
+ahorros. No aumentar la plantilla de forma masiva, sino incorporar perfiles especialistas y
+apoyarse en servicios de consultoría externa para tareas no críticas.
+Priorizar la integración del CRM y sistema de siniestros ya que impacta directamente en el
+objetivo de reducir la resolución y atención de siniestros.
+Seguros Plus debe profesionalizar su gestión tecnológica para convertir los actuales riesgos
+y puntos de dolor en ventajas competitivas y diferenciadores, para crear un crecimiento en
+el mercado y una experiencia positiva de cliente.
+https://lh3.googleusercontent.com/notebooklm/ANHLwAz8OWLtoznbyFiCJdYuIzvOHqyA1AUmOwxW7VepUXwByyFexUvzW5hsFOqE3HzjY-NCJCPu1UHi9RhcuCPffyxkxlUAF6t5o2_KJcA_NgmqnJuDNXjyGQDBjCN6-lrwDwCgG5klRg=w232-h173-v0
+Máster en Ingeniería Informática Gestión y gobierno en Tecnología de la Información
+26
+6. REFERENCIAS
+Cybiant. (2021). Cybiant. Obtenido de https://www.cybiant.com/knowledge/what-is-
+cobit/
+García-Cabrera, L. (s.f.). Conceptos de Gobernanza TI.
+García-Cabrera, L. (s.f.). La norma ISO/IEC 38500: Evaluar-Dirigir-Monitorizar. Jaén, Jaén, España.
+Sánchez, P. (s.f.). ISO 38500-COBTI 2029 Comparativa. Obtenido de iso38500-cobit2019-
+comparativa.html
+Sánchez, P. (s.f.). presentación gobierno y gestión ti caso cultutal. Obtenido de
+presentacion_gobierno_gestion_ti_caso_cultural.html
