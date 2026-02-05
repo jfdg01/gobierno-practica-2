@@ -1,156 +1,183 @@
-# **Dominio APO \- Planificación**
+# **Dominio APO – Planificación: Plataforma ITSM de Seguros Plus**
 
-**Responsable de Planificación**: Javier Francisco Dibo Gómez   
-**Procesos Asignados**: 
+**Responsable de Planificación**: Javier Francisco Dibo Gómez  
+**Procesos Asignados**: APO02 (Gestionar la Estrategia), APO12 (Gestionar el Riesgo), APO13 (Gestionar la Seguridad)
 
-* APO02 (Gestionar la Estrategia),   
-* APO12 (Gestionar el Riesgo),   
-* APO13 (Gestionar la Seguridad)
 
-  ## **Introducción al Dominio APO en Seguros Plus**
+## **Introducción al Sistema ITSM en Seguros Plus**
 
-El dominio de Alineación, Planificación y Organización (APO) es fundamental para transformar a Seguros Plus de una organización con una TI reactiva y dispersa a una entidad impulsada por datos y procesos digitales seguros. Como Responsable de Planificación, el objetivo es establecer la dirección estratégica tecnológica, identificar y mitigar los riesgos críticos que amenazan el negocio (especialmente los relacionados con datos de salud) y blindar la organización con un marco de seguridad robusto.
+La plataforma de Gestión de Servicios de TI (ITSM) representa una pieza fundamental en la transformación digital de Seguros Plus. Actualmente, la organización carece de una herramienta formal para gestionar incidencias y solicitudes: los reportes de fallos llegan de forma desordenada por correo electrónico o llamadas directas, y el seguimiento se realiza en hojas de cálculo, lo que impide tener trazabilidad, métricas de rendimiento o una base de conocimientos para evitar problemas recurrentes.
 
-Este dominio actúa como el puente traductor entre las **Metas de Negocio** (Crecimiento, Satisfacción, Eficiencia) y la **Ejecución Técnica**. Sin una estrategia clara (APO02), las inversiones del CFO carecerán de dirección; sin gestión de riesgos (APO12), la empresa navega a ciegas ante amenazas legales y operativas; y sin seguridad (APO13), la confianza del cliente —nuestro activo más valioso— es vulnerable.
+El dominio APO establece las bases estratégicas para la implementación exitosa del ITSM, asegurando su alineación con los objetivos de negocio (eficiencia operativa, reducción de tiempos de respuesta), identificando los riesgos específicos del proyecto y definiendo los controles de seguridad necesarios para proteger la información gestionada a través de la plataforma.
 
-## **APO02: Gestionar la Estrategia**
 
-**Objetivo:** Alinear las capacidades de TI con los objetivos estratégicos de Seguros Plus para el periodo 2026-2028, pasando de un enfoque de soporte a uno de habilitador de negocio.
+## **APO02: Gestionar la Estrategia del ITSM**
 
-### **1\. Análisis del Contexto y Capacidades Actuales**
+**Objetivo:** Alinear la implementación del sistema ITSM con los objetivos estratégicos de Seguros Plus, transformando el soporte reactivo actual en un servicio proactivo y medible.
 
-El diagnóstico revela una desconexión crítica. Mientras la Dirección busca digitalizar el 80% de los procesos y mejorar el NPS en un 20%, el área de TI opera con capacidades limitadas:
+### **1. Análisis del Contexto Actual**
 
-* **Brecha de Capacidad:** Equipo reducido (8 personas) enfocado en "apagar fuegos" (soporte reactivo) en lugar de innovación. **Se identifica una necesidad crítica de adquirir nuevas competencias (upskilling) para soportar tecnologías Cloud/API, lo cual deberá ser abordado en el plan de capacitación (BAI05).**  
-* **Brecha Tecnológica:** Sistemas "isla" (CRM, Siniestros, Ventas) que no se hablan, forzando la manualidad.  
-* **Brecha de Percepción:** TI es vista como un centro de coste, no de inversión.
+El diagnóstico revela una situación crítica en la gestión de servicios de TI:
 
-  ### **2\. Definición de la Estrategia TI (Roadmap 2026-2028)**
+- **Canales de entrada**: Correos, llamadas y mensajes informales sin un punto único de contacto (SPOC).
+- **Registro de incidencias**: Hojas de cálculo Excel sin trazabilidad ni capacidad de auditoría.
+- **Tiempos de resolución**: Desconocidos, ya que no se miden, lo que imposibilita establecer SLAs.
+- **Base de conocimiento**: Inexistente, provocando que los problemas recurrentes no queden documentados.
+- **Recursos**: 8 técnicos saturados dedicando el 80% de su tiempo a tareas reactivas de bajo valor.
 
-Para cerrar estas brechas, se define una estrategia basada en tres pilares, alineada con las restricciones presupuestarias del CFO y las necesidades operativas:
+### **2. Objetivos Estratégicos del ITSM**
 
-#### **Integración y Dato Único**
+La implementación del ITSM soportará directamente las siguientes metas de negocio:
 
-* **Objetivo de Negocio:** Agilidad en Siniestros (15 a 5 días) y Eficiencia Interna  
-* **Iniciativas Clave de TI:**  
-  * Implementación de **Integración vía APIs ligeras** (Middleware) entre CRM y Siniestros, priorizando bajo mantenimiento (OpEx) para el equipo actual. *Esta arquitectura será detallada en los requisitos técnicos del dominio BAI (BAI02).*  
-  * Eliminación de bases de datos locales (Excel) y centralización en Data Warehouse.
+**Digitalización del 80% de los procesos**
+- *Contribución del ITSM*: Automatización de flujos de soporte.  
+- *KPI Objetivo*: 100% de incidencias gestionadas digitalmente.
 
-  #### **Experiencia Digital Segura**
+**Satisfacción del cliente (+20% NPS)**
+- *Contribución del ITSM*: Reducción de tiempos de respuesta.  
+- *KPI Objetivo*: Resolución promedio inferior a 4 horas para incidencias de prioridad 2.
 
-* **Objetivo de Negocio:** Incremento de Satisfacción (NPS)  
-* **Iniciativas Clave de TI:**  
-  * Refactorización del Portal de Clientes (UX/UI).  
-  * Implementación de Firma Digital legalmente vinculante.
+**Reducción de costes operativos (15%)**
+- *Contribución del ITSM*: Liberación de técnicos para tareas de innovación.  
+- *KPI Objetivo*: -30% de tiempo dedicado a tareas repetitivas.
 
-  #### **Eficiencia y Sostenibilidad**
+**Capacitación del 100% del personal**
+- *Contribución del ITSM*: Portal de autoservicio con base de conocimientos.  
+- *KPI Objetivo*: 40% de incidencias resueltas mediante autoayuda.
 
-* **Objetivo de Negocio:** Sostenibilidad Financiera (Reducción de OpEx)  
-* **Iniciativas Clave de TI:**  
-  * Migración a arquitectura Cloud (AWS) para flexibilizar costes.  
-  * Automatización de procesos repetitivos (RPA) para liberar al personal de tareas manuales.
+### **3. Roadmap de Implementación (2026-2027)**
 
-  ### **3\. Modelo de Priorización de Inversiones**
+**Fase 1 – Fundamentos (Q1 2026):** Catálogo de servicios TI, definición de SLAs y selección de herramienta.
 
-Para asegurar la alineación con el principio de "Calidad del Gasto" del CFO, toda iniciativa estratégica debe pasar por un filtro de priorización:
+**Fase 2 – Despliegue Core (Q2-Q3 2026):** Puesta en marcha de la gestión de incidencias y peticiones, junto con el portal de usuarios.
 
-1. **Cumplimiento Normativo (Protección de Valor):** Proyectos requeridos por ley (ej. GDPR). Prioridad Máxima para **mitigar Pasivos Contingentes** (multas financieras) y blindar la caja de la empresa.  
-2. **Continuidad de Negocio:** Actualización de sistemas obsoletos que amenazan la operación.  
-3. **Retorno de Inversión (ROI):** Proyectos que generan ahorro directo o ingresos (ej. Automatización).  
-4. **Innovación:** Apuestas a futuro (ej. IA para análisis de siniestros).
+**Fase 3 – Optimización (Q4 2026):** Implementación de la base de conocimientos, automatizaciones e integración con el CRM.
 
-   ## **APO12: Gestionar el Riesgo**
+**Fase 4 – Madurez (2027):** Gestión de problemas, reporting avanzado y procesos de mejora continua.
 
-**Objetivo:** Identificar, evaluar y reducir los riesgos relacionados con TI dentro de niveles de tolerancia aceptables, protegiendo la reputación y la estabilidad de Seguros Plus.
 
-### **1\. Perfil de Riesgo de Seguros Plus**
+## **APO12: Gestionar el Riesgo del ITSM**
 
-La organización maneja datos de Categoría Especial (Salud) según el RGPD, lo que eleva nuestro perfil de riesgo a **ALTO**. La combinación de datos sensibles, sistemas obsoletos y procesos manuales crea una "tormenta perfecta" para incidentes graves.
+**Objetivo:** Identificar, evaluar y definir respuestas para los riesgos asociados a la implementación y operación del sistema ITSM.
 
-### **2\. Registro y Evaluación de Riesgos (Risk Heatmap)**
+### **1. Perfil de Riesgo del Proyecto ITSM**
 
-Se han identificado los siguientes riesgos prioritarios, evaluados por Probabilidad (1-5) e Impacto (1-5):
+La implementación del ITSM gestiona información operativa crítica y afecta directamente la continuidad del negocio. Nivel de riesgo global: **MEDIO-ALTO**.
 
-#### **R-01 Fuga de Información de Salud**
+### **2. Registro de Riesgos**
 
-* **Descripción:** Exposición de datos médicos de clientes debido al uso de canales inseguros (Excel compartidos, Emails sin cifrar).  
-* **Evaluación:** Probabilidad 4 (Alto) x Impacto 5 (Crítico) \= **Nivel 20 (Extremo)**  
-* **Dueño:** CIO / DPO
+**R-ITSM-01: Baja adopción por usuarios (resistencia al cambio)**
+- Probabilidad: Alta (4) | Impacto: Alto (4) | **Nivel: 16 - Alto**
+- Propietario: Directora de Operaciones
 
-  #### **R-02 Shadow IT / Desgobierno**
+**R-ITSM-02: Fuga de información sensible vía tickets (datos de salud)**
+- Probabilidad: Media (3) | Impacto: Crítico (5) | **Nivel: 15 - Alto**
+- Propietario: CIO / DPO
 
-* **Descripción:** Contratación de software por departamentos (Ventas/Marketing) sin validación de seguridad ni integración, creando silos y vulnerabilidades.  
-* **Evaluación:** Probabilidad 5 (Muy Alto) x Impacto 3 (Medio) \= **Nivel 15 (Alto)**  
-* **Dueño:** CFO / CIO
+**R-ITSM-03: Integración fallida con sistemas legacy (CRM, Siniestros)**
+- Probabilidad: Media (3) | Impacto: Alto (4) | **Nivel: 12 - Alto**
+- Propietario: CIO
 
-  ### **R-03 Interrupción del Servicio (Downtime)**
+**R-ITSM-04: Caída del ITSM paralizando la resolución de incidencias**
+- Probabilidad: Baja (2) | Impacto: Alto (4) | **Nivel: 8 - Medio**
+- Propietario: Responsable de Infraestructura
 
-* **Descripción:** Caída de sistemas críticos (Siniestros/CRM) por infraestructura obsoleta o falta de redundancia, paralizando la atención.  
-* **Evaluación:** Probabilidad 3 (Medio) x Impacto 4 (Alto) \= **Nivel 12 (Alto)**  
-* **Dueño:** Resp. Operaciones
+**R-ITSM-05: Sobrecostes por alcance descontrolado (scope creep)**
+- Probabilidad: Media (3) | Impacto: Medio (3) | **Nivel: 9 - Medio**
+- Propietario: CFO / CIO
 
-  #### **R-04 Dependencia de Personal Clave**
+**R-ITSM-06: Dependencia excesiva del proveedor (vendor lock-in)**
+- Probabilidad: Baja (2) | Impacto: Medio (3) | **Nivel: 6 - Bajo**
+- Propietario: CIO
 
-* **Descripción:** Pérdida de conocimiento crítico si uno de los 8 técnicos abandona la empresa (Bus Factor \= 1).  
-* **Evaluación:** Probabilidad 3 (Medio) x Impacto 3 (Medio) \= **Nivel 9 (Medio)**  
-* **Dueño:** RRHH / CIO
+### **3. Plan de Tratamiento de Riesgos**
 
-  #### **R-05 Incumplimiento Normativo (GDPR)**
+**Para R-ITSM-01 (Baja adopción)** – Estrategia: Mitigar  
+Se implementará un programa de embajadores digitales, formación gamificada, interfaz simplificada y comunicación de beneficios. Se priorizarán quick wins visibles en las primeras semanas.
 
-* **Descripción:** Sanciones económicas (hasta 4% facturación) por no garantizar derechos ARCO o trazabilidad de datos.  
-* **Evaluación:** Probabilidad 2 (Bajo) x Impacto 5 (Crítico) \= **Nivel 10 (Alto)**  
-* **Dueño:** Asesoría Legal
+**Para R-ITSM-02 (Fuga de datos sensibles)** – Estrategia: Mitigar  
+Se establecerá clasificación automática de tickets sensibles, enmascaramiento de datos de salud, control de accesos por rol (ver APO13) y logs de auditoría.
 
-  ### **3\. Plan de Tratamiento de Riesgos**
+**Para R-ITSM-03 (Integración fallida)** – Estrategia: Evitar/Mitigar  
+Se seleccionará un ITSM con APIs REST abiertas, se desarrollarán conectores en Fase 1 y se realizarán pruebas de integración exhaustivas antes del go-live.
 
-* **Para R-01 y R-05 (Datos):** Estrategia de **Mitigación**. Implementación inmediata de controles de DLP (Data Loss Prevention) y migración forzosa de datos locales a sistemas centrales seguros. (Ver APO13).  
-* **Para R-02 (Shadow IT):** Estrategia de **Evitar/Controlar**. Implementación de la política de compras validada por el CFO. Bloqueo técnico de aplicaciones no autorizadas, acompañado de un proceso **"Fast-Track"** (aprobación en 48h) restringido exclusivamente a herramientas de **Bajo Riesgo** (sin tratamiento de datos personales). Si la herramienta implica datos de Nivel 4, requerirá validación completa de seguridad.  
-* **Para R-03 (Downtime):** Estrategia de **Transferir/Mitigar**. Migración a la nube (SLA garantizado por proveedor) y establecimiento de planes de recuperación (DRP).
+**Para R-ITSM-04 (Caída del servicio)** – Estrategia: Transferir  
+Se contratará un servicio SaaS con SLA de 99.9% y se definirá un procedimiento manual de contingencia (fallback).
 
-  ## **APO13: Gestionar la Seguridad**
+**Para R-ITSM-05 (Sobrecostes)** – Estrategia: Controlar  
+Se aplicará gestión de cambios estricta (BAI06), Business Case validado por CFO y revisiones mensuales de alcance en el Comité Operativo.
 
-**Objetivo:** Definir, operar y monitorizar un Sistema de Gestión de Seguridad de la Información (SGSI) que garantice la Confidencialidad, Integridad y Disponibilidad de los datos de Seguros Plus.
+**Para R-ITSM-06 (Vendor lock-in)** – Estrategia: Aceptar/Mitigar  
+Se realizará exportación periódica de datos, documentación de configuraciones e inclusión de cláusulas contractuales de migración.
 
-### **1\. Marco de Gestión de Seguridad**
 
-Dado el tamaño de la empresa, no buscaremos una certificación ISO 27001 completa a corto plazo, pero sí alinearemos nuestros controles a sus dominios, enfocándonos en la protección de datos personales.
+## **APO13: Gestionar la Seguridad del ITSM**
 
-### **2\. Políticas de Seguridad Clave**
+**Objetivo:** Definir los controles de seguridad necesarios para garantizar la confidencialidad, integridad y disponibilidad de la información gestionada a través del sistema ITSM.
 
-Se definen tres políticas mandatorias que todos los empleados (desde agentes hasta directivos) deben cumplir:
+### **1. Requisitos de Seguridad del ITSM**
 
-#### **A. Política de Clasificación y Manejo de la Información**
+El ITSM de Seguros Plus gestionará información que puede incluir referencias a datos de clientes (históricos de incidencias relacionadas con pólizas o siniestros), credenciales técnicas y configuraciones de sistemas críticos. Esto exige controles específicos alineados con el RGPD y las políticas internas de seguridad.
 
-Se establecen niveles de confidencialidad para etiquetar todos los documentos y datos:
+### **2. Políticas de Seguridad Aplicables al ITSM**
 
-* **Nivel 1: Público:** Información corporativa general (Web, Marketing).  
-* **Nivel 2: Interno:** Procedimientos, directorios, comunicaciones internas.  
-* **Nivel 3: Confidencial (Restringido):** Datos financieros, estrategias, contraseñas.  
-* **Nivel 4: Datos Sensibles (Crítico):** **Historiales médicos, diagnósticos, datos de siniestros de salud.**  
-  * *Control:* Los datos de Nivel 4 **NUNCA** pueden residir en equipos locales, USBs o enviarse por correo sin cifrado. Deben estar siempre en el CRM/Sistema Core.  
-  * *Medida de Transición:* Dado que actualmente existen datos en Excel (Riesgo R-01), se establece una medida transitoria de **cifrado de archivos individuales** y borrado seguro tras su migración al CRM, responsabilidad que recaerá en Operaciones (DSS01) bajo supervisión de cumplimiento (MEA03).
+#### **A. Política de Control de Acceso (RBAC)**
 
-  #### **B. Política de Control de Acceso (RBAC)**
+El acceso al ITSM se basará en el principio de mínimo privilegio:
 
-Se elimina el acceso genérico. El acceso a la información se basará en el principio de "mínimo privilegio" según el rol:
+- **Usuario Final**: Puede crear tickets propios y consultar la base de conocimientos pública. No tiene acceso a tickets de otros usuarios ni a datos técnicos.
 
-* **Agentes Comerciales:** Acceso solo a datos de contacto y pólizas de *sus* clientes. No acceden a historial médico detallado salvo en apertura de siniestro.  
-* **Tramitadores de Siniestros:** Acceso completo al expediente médico necesario para la gestión. Trazabilidad total de quién vio qué dato y cuándo (Logs de acceso).  
-* **TI:** Acceso de administración, pero sin visibilidad de los datos sensibles (base de datos cifrada).
+- **Agente de Soporte N1**: Puede gestionar tickets asignados y consultar la base de conocimientos interna. No tiene acceso a configuraciones ni a datos sensibles de clientes.
 
-  #### **C. Política de Seguridad en el Puesto de Trabajo y Movilidad**
+- **Agente de Soporte N2**: Tiene gestión avanzada y acceso a logs técnicos. Solo accede a datos de cliente en tickets escalados relacionados.
 
-Considerando el modelo híbrido (agentes en calle, teletrabajo):
+- **Administrador ITSM**: Tiene configuración completa del sistema pero sin visibilidad del contenido de tickets (solo estructura).
 
-* **Cifrado de Dispositivos:** Todos los portátiles y móviles corporativos deben tener el disco cifrado (BitLocker/FileVault).  
-* **Autenticación Robusta:** Implementación de **MFA (Autenticación de Multifactor)** obligatoria para acceder a sistemas corporativos desde fuera de la oficina.  
-* **Gestión de Vulnerabilidades:** Actualización automática de parches de seguridad en todos los equipos (evitar el "ya lo actualizaré mañana").
+#### **B. Política de Clasificación de Información en Tickets**
 
-  ### **3\. Integración con otros Dominios**
+- **Nivel Público**: Información de autoayuda (FAQs, guías de uso). Sin restricción de acceso.
 
-* **Con BAI (Implementación):** La seguridad debe incorporarse desde el diseño (**Security by Design**). Cualquier nuevo desarrollo (ej. el nuevo Portal de Clientes) debe pasar pruebas de seguridad (análisis de vulnerabilidades) antes de salir a producción.  
-* **Con DSS (Operaciones):** Se define el **Plan de Respuesta ante Incidentes**. Este protocolo será ejecutado operativamente por el equipo de **DSS02 (Gestión de Incidentes)**. Si Operaciones detecta una anomalía (ej. ransomware), debe existir un protocolo claro de contención, erradicación y notificación a la AEPD (Agencia Española de Protección de Datos) en menos de 72h si afecta a datos personales.
+- **Nivel Interno**: Incidencias operativas genéricas ("El CRM va lento"). Visible para agentes.
 
-  ### **Resumen de Valor del Rol de Planificación**
+- **Nivel Confidencial**: Tickets con datos de negocio (configuraciones, credenciales). Solo accesible para N2+ con necesidad justificada.
 
-La labor realizada en este dominio sienta las bases para el éxito del proyecto. Hemos definido **HACIA DÓNDE** vamos (Estrategia alineada con un ROI claro), **QUÉ PELIGROS** enfrentamos en el camino (Mapa de Riesgos enfocado en datos de salud) y **CÓMO NOS PROTEGEMOS** (Políticas de Seguridad y Control de Accesos). Esto permite al Responsable de Implementación construir sistemas sólidos y al Responsable de Operaciones dormir tranquilo sabiendo que los riesgos están controlados.
+- **Nivel Sensible**: Referencias a datos de salud ("Cliente X no puede acceder a su póliza de..."). Se aplica enmascaramiento automático y logs de acceso.
+
+#### **C. Política de Auditoría y Trazabilidad**
+
+- **Logging obligatorio**: Todas las acciones en el ITSM (creación, modificación, visualización de tickets) quedarán registradas.
+- **Retención de logs**: Mínimo 2 años para cumplimiento RGPD.
+- **Revisión trimestral**: Operaciones (DSS01) revisará accesos anómalos bajo supervisión de Cumplimiento (MEA03).
+
+### **3. Controles Técnicos de Seguridad**
+
+- **Autenticación MFA**: Obligatoria para acceso al ITSM desde fuera de la red corporativa. Responsable: Infraestructura TI.
+
+- **Cifrado en tránsito**: TLS 1.3 para todas las comunicaciones. Responsable: Proveedor ITSM.
+
+- **Cifrado en reposo**: Base de datos cifrada con AES-256. Responsable: Proveedor ITSM.
+
+- **Timeout de sesión**: 15 minutos de inactividad para agentes, 5 minutos para administradores. Responsable: Configuración ITSM.
+
+- **Anonimización**: Datos personales en tickets históricos anonimizados tras el cierre. Responsable: Automatización.
+
+### **4. Integración con Otros Dominios**
+
+- **Con BAI (Implementación):** La seguridad se incorporará desde el diseño del ITSM (*Security by Design*). Antes del despliegue, se realizarán pruebas de penetración y análisis de vulnerabilidades (BAI02).
+
+- **Con DSS (Operaciones):** El ITSM incluirá un flujo específico para incidentes de seguridad que active el protocolo de respuesta definido en DSS02, incluyendo notificación a la AEPD si corresponde.
+
+- **Con MEA (Monitorización):** Los indicadores del ITSM alimentarán el cuadro de mando de MEA01, y el cumplimiento de políticas de seguridad será verificado en MEA03.
+
+
+## **Resumen Ejecutivo**
+
+La implementación del sistema ITSM en Seguros Plus está estratégicamente alineada con los objetivos de transformación digital de la organización. Este documento establece:
+
+1. **Estrategia (APO02)**: Un roadmap claro de implementación en 4 fases que conecta directamente con las metas de eficiencia, satisfacción y reducción de costes operativos.
+
+2. **Gestión de Riesgos (APO12)**: Identificación de 6 riesgos críticos, siendo la resistencia al cambio y la protección de datos sensibles los de mayor prioridad, con planes de tratamiento concretos.
+
+3. **Seguridad (APO13)**: Políticas de control de acceso basado en roles, clasificación de información y controles técnicos que garantizan el cumplimiento normativo (RGPD) y la protección de los datos gestionados.
+
+Estas bases permiten al Responsable de Implementación (BAI) construir el sistema de forma segura y al Responsable de Operaciones (DSS) operarlo con métricas claras y riesgos controlados.
